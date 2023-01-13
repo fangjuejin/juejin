@@ -1,0 +1,14 @@
+<view class="page home">
+    <view class="page__hd">
+        <swiper>
+            <swiper-item>
+                1
+            </swiper-item>
+            <swiper-item>
+                2
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="page__bd"></view>
+    <view class="page__ft"></view>
+</view>

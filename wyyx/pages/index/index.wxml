@@ -1,0 +1,52 @@
+<view class="page home">
+    <view class="page__hd">
+        <navigator url="/pages/selected/select">
+            <view class="hd__left">
+
+                <swiper autoplay interval="{{5000}}" duration="{{600}}">
+                    <block >
+                        <swiper-item>
+                            <view></view>
+                        </swiper-item>
+                    </block>
+                </swiper>
+            </view>
+            <view class="hd__right">
+                <text>搜索</text>
+            </view>
+
+
+        </navigator>
+        <scroll-view scroll-x="true">
+            <view class="section">
+                <view class="section__scroll">
+                    1
+                </view>
+                <view class="section__scroll">
+                    2
+                </view>
+                <view class="section__scroll">
+                    1
+                </view><view class="section__scroll">
+                    1
+                </view><view class="section__scroll">
+                    1
+                </view><view class="section__scroll">
+                    1
+                </view><view class="section__scroll">
+                    1
+                </view><view class="section__scroll">
+                    1
+                </view><view class="section__scroll">
+                    1
+                </view><view class="section__scroll">
+                    1
+                </view>
+              
+
+            </view>
+        </scroll-view>
+    </view>
+    <view class="page__bd"></view>
+    <view class="page__ft"></view>
+</view>
